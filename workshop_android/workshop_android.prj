@@ -6,6 +6,7 @@
    <UUID>8c6c6ec3-137c-4fc0-af10-e877b1301830</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/somkiat/data/slide/automated-testing/workshop/workshop_android/workshop_android.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
