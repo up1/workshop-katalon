@@ -41,5 +41,7 @@ println(results[3])
 
 WebUI.verifyMatch(results[0], 'ผลการค้นหาประมาณ', false)
 
+WebUI.takeScreenshot("/Users/somkiat/data/slide/automated-testing/workshop/test_001.png")
+
 WebUI.closeBrowser()
 
