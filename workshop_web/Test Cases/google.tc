@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ea1773a4-5951-411a-8949-36089025cac8</testCaseGuid>
+   <variable>
+      <defaultValue>'ผลการค้นหาประมาณ'</defaultValue>
+      <description></description>
+      <id>0728be26-e4f8-4d0a-99e8-0ac286ada067</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
 </TestCaseEntity>
