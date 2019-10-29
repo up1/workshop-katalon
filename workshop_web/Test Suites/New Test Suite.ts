@@ -11,7 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c906e8b4-e66a-4c3e-b617-130cd4165e31</testSuiteGuid>
    <testCaseLink>
-      <guid>c4ace451-163e-4e94-b8a6-4690edb8bee7</guid>
+      <guid>462143e9-eff7-4d27-affb-415ffac5ddb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/google</testCaseId>
@@ -20,6 +20,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>0728be26-e4f8-4d0a-99e8-0ac286ada067</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b8f292b8-0cba-4e24-95fd-e927985831c9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

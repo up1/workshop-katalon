@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>
+   <variable>
+      <defaultValue>'Katalon'</defaultValue>
+      <description></description>
+      <id>b8f292b8-0cba-4e24-95fd-e927985831c9</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
 </TestCaseEntity>

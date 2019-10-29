@@ -18,7 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.BASE_URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/input__q'), 'katalon')
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Object Repository/Page_Google/input__q'), keyword)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), Keys.chord(Keys.ENTER))
 
