@@ -9,3 +9,7 @@
   * Data-driven testing
 
 * [Mobile testing with Android app](https://github.com/up1/workshop-katalon/tree/master/workshop_android)
+
+
+### Reference websites
+* [Katalon sample projects](https://github.com/katalon-studio-samples)
