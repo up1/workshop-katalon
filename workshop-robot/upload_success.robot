@@ -27,8 +27,6 @@ Upload image file จำนวน 3 file และ upload ทีละ file
     Wait Until Page Contains Element
     ...  xpath://div[@style="width: 100%;"]
 
-
-
 ทำการ upload file ที่ 1
     Choose File    xpath://*[@id="ng-app"]/body/div/div[2]/div[1]/input[2]
     ...  ${CURDIR}/data_files/image_01.png
