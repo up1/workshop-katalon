@@ -35,7 +35,8 @@ Mobile.tap(findTestObject('android.widget.ImageButton0 (1)'), 0)
 Mobile.waitForElementPresent(findTestObject('androidx.recyclerview.widget.RecyclerView0'), 0, FailureHandling.STOP_ON_FAILURE)
 
 AppiumDriver<?> driver = MobileDriverFactory.getDriver()
-List<WebElement> elements = driver.findElementsByXPath('//androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout')
+List<WebElement> elements = 
+       driver.findElementsByXPath('//androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout')
 println('The size of elements is ::' + elements.size())
 
 Mobile.closeApplication()

@@ -16,34 +16,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.BASE_URL)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('http://nervgh.github.io/pages/angular-file-upload/examples/simple/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/input__q'), keyword)
+WebUI.doubleClick(findTestObject('Object Repository/Page_Simple example/strong_Screen Shot 2562-10-29 at 010040png'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Google/input__q'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Simple example/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('Page_katalon -  Google/div_ 535000  (039 )'), 5)
+WebUI.click(findTestObject('Object Repository/Page_Simple example/td_069 MB'))
 
-//WebUI.verifyElementText(findTestObject('Page_katalon -  Google/div_ 535000  (039 )'), '5555')
-result = WebUI.getText(findTestObject('Page_katalon -  Google/div_ 535000  (039 )'))
+WebUI.click(findTestObject('Object Repository/Page_Simple example/div_Screen Shot 2562-10-29 at 010040png_progress'))
 
-println(result)
+WebUI.click(findTestObject('Object Repository/Page_Simple example/i_Screen Shot 2562-10-29 at 010040png_glyph_439e3f'))
 
-String[] results = result.split(' ')
+WebUI.click(findTestObject('Object Repository/Page_Simple example/div_Queue progress_progress-bar'))
 
-println(results[0])
+WebUI.click(findTestObject('Object Repository/Page_Simple example/div_Queue progress'))
 
-println(results[1])
+WebUI.click(findTestObject('Object Repository/Page_Simple example/div_Queue progress'))
 
-println(results[2])
-
-println(results[3])
-
-//WebUI.takeScreenshot('/Users/somkiat/data/slide/automated-testing/workshop/test_001.png')
-
-WebUI.closeBrowser()
-
-WebUI.verifyMatch(results[0], expectedResult, false)
+WebUI.click(findTestObject('Object Repository/Page_Simple example/div_Queue progress'))
 

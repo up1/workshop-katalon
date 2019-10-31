@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <csv-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>/Users/somkiat/data/slide/automated-testing/workshop/data/keyword.csv</source-url>
+      <source-type>CSV</source-type>
+      <sheet-name-or-separator>COMMA</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </csv-source-info>
+   <taken-date>2019-10-29T15:01:01.026</taken-date>
+   <column-names>
+      <column-name>Keywords</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "katalon1",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "katalon2",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "katalon3",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
